@@ -1,0 +1,73 @@
+/** Home Page **/
+.bg1 {
+  left: 0;
+  top: 0;
+  background-image: url('img/bar2.jpg');
+  background-size: cover;
+  min-height: 120vh;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  
+}
+
+.sidebar-menu {
+  top: 0;
+  position: fixed;
+  height: 100%;
+  background-color: black;
+  width: 20%;
+}
+
+.sidebar-menu ul {
+  margin-top: 5%;
+  text-align: center;
+  padding: 0;
+  list-style-type: none;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sidebar-menu li {
+  padding: 15% 0;
+}
+
+.sidebar-menu a {
+  text-decoration: none;
+  color: tan;
+}
+
+.sidebar-menu li:hover {
+  background-color: rgb(100, 85, 66);
+}
+
+h1 {
+  padding-left: 27%;
+  padding-top: 12%;
+  color: white;
+  font-size: 70px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/** Bar search page **/
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
