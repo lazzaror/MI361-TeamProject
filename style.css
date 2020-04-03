@@ -48,8 +48,10 @@ h1 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/** About Page **/
 
-/** Bar search page **/
+
+/** Search Bars Page **/
 .bg2 {
   left: 0;
   top: 0;
@@ -62,7 +64,7 @@ h1 {
 }
 
 .gallery-container {
-  padding: 10% 0 0 20%;
+  padding: 2% 0 0 20%;
 }
 
 div.gallery {
@@ -84,4 +86,42 @@ div.gallery img {
 div.desc {
   padding: 15px;
   text-align: center;
+  background-color: white;
 }
+
+/**  My Profile Page **/
+h2 {
+  padding-left: 27%;
+  margin-bottom: 2%;
+  color: white;
+  font-size: 60px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.profile {
+  border-radius: 2em;
+  margin: 2% 0 0 27%;
+  width: 15%;
+  z-index: 1;
+}
+
+.profile-name {
+  margin-left: 30%;
+  padding-bottom: 4%;
+  font-size: 30px;
+}
+
+.text-container {
+  margin-left: 24%;
+  background-color: white;
+  position: fixed;
+  opacity: 50%;
+  padding: 10% 70% 25% 0;
+  z-index: -1;
+  max-width: 100%;
+}
+
+
+
+
+/** Contact Us Page **/
