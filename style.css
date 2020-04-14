@@ -49,6 +49,14 @@ h1 {
 }
 
 /** About Page **/
+.text {
+  margin-left: 20%;
+  padding: 3% 7%;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 
 /** Search Bars Page **/
@@ -160,3 +168,6 @@ h2 {
 
 
 /** Contact Us Page **/
+.left-aligned {
+  text-align: left;
+}
