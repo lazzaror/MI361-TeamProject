@@ -141,24 +141,28 @@ h2 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.heading {
+  margin: 3% 0 0 0;
+  left: 43%;
+  top: 25%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: fixed;
+  font-size: 25px;
+  font-weight: bolder;
+  float: right;
+}
+
 .profile {
   border-radius: 2em;
   margin: 2% 0 0 27%;
   width: 15%;
-  z-index: 1;
-}
-
-.profile-name {
-  margin-left: 30%;
-  padding-bottom: 4%;
-  font-size: 30px;
 }
 
 .text-container {
   margin-left: 24%;
   background-color: white;
   position: fixed;
-  opacity: 50%;
+  opacity: 70%;
   padding: 10% 70% 25% 0;
   z-index: -1;
   max-width: 100%;
