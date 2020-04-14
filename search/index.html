@@ -20,35 +20,56 @@
         <li><a href="../contact">Contact</a></li>
       </ul>
     </div>
-  <h2>Search Bars</h2>
+    
+<!--User input bar -->
+<h2>Search Bars</h2>
+<div class = "lookup">
+  <form action="/action_page.php">
+    <label for="barName">Search By Name</label>
+    <input type="text" id="barNamename" name="barNameame" placeholder="Bar Name.."><br>
+
+    <label for="loc">Search By Location</label>
+    <select id="loc" name="locName">
+      <option value="lansing">East Lansing</option>
+      <option value="annArbor">Ann Arbor</option>
+      <option value="mtPleasant">Mt. Pleasant</option>
+      <option value="gR">Grand Rapids</option>
+    </select>
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+  <!-- Bar List -->
     <div class="gallery-container">
       <div class="gallery">
         <a target="_blank" href="?">
-          <img src="../img/ricks.jpg" alt="Cinque Terre" width="600" height="400">
+          <img src="../img/ricks.jpg" alt="Rick's" width="600" height="400">
         </a>
-        <div class="desc">Add a description of the image here</div>
+        <div class="desc">Rick's in East Lansing</div>
       </div>
 
       <div class="gallery">
         <a target="_blank" href="?">
-          <img src="../img/pt.jpg" alt="Forest" width="600" height="400">
+          <img src="../img/pt.jpg" alt="P.T. O'Malley's" width="600" height="400">
         </a>
-        <div class="desc">Add a description of the image here</div>
+        <div class="desc">P.T. O'Malley's in East Lansing</div>
       </div>
 
       <div class="gallery">
         <a target="_blank" href="?">
-          <img src="../img/harpers.jfif" alt="Northern Lights" width="600" height="400">
+          <img src="../img/harpers.jfif" alt="Harper's" width="600" height="400">
         </a>
-        <div class="desc">Add a description of the image here</div>
+        <div class="desc">Harper's in East Lansing</div>
       </div>
 
       <div class="gallery">
         <a target="_blank" href="?">
-          <img src="../img/hopcat.jfif" alt="Mountains" width="600" height="400">
+          <img src="../img/hopcat.jfif" alt="Hopcat"" width="600" height="400">
         </a>
-        <div class="desc">Add a description of the image here</div>
+        <div class="desc">Hopcat in East Lansing</div>
       </div>
+
     </div>
   </div>
 </body>
